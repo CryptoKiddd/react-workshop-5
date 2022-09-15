@@ -3,14 +3,14 @@ import React, { useState } from "react";
 
 export const Inputs = () => {
 
-let userId = Math.floor(Math.random() * 1000)
+
   const [formInputs, setFormInputs] = useState({
     firstname: "",
     lastname: "",
     email: "",
     age: "",
     gender: "",
-    id:userId
+
   });
   const [users, setUsers] = useState([]);
   
