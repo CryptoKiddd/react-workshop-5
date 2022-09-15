@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.inputs-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .75rem;
+}
+.select-gender{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.form input {
+    height: 1.5rem;
+    border:none;
+    border-bottom: 1px solid #000;
+    color: red;
+    font-size: 1rem;
+
+}
+.form input:valid{
+    color: green;
+}
+.form input:focus{
+    outline: none;
+
+}
+.submit-btn{
+    width: 100px;
+    border: none;
+    height: 35px;
+ background: none;;
+    cursor: pointer;
+    border:1px solid black;
+    transition: 250ms ease;
+    font-size: 1rem;
+    letter-spacing:2px;
+}
+.submit-btn:hover{
+    background: #333;
+    color: white;;
+}
+.users-wrapper{
+    width: 100%;
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+   justify-content: center; 
+    flex-wrap: wrap;
+    
+}
+.user{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  align-items: start;
+    width: 275px;
+    border: 1px solid black;
+    padding: 1rem 1.5rem;
+}
+.user p{
+    font-size: 1.2rem;
+   
+}
+.user-buttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.user-buttons button{
+    width: 35%;
+    height: 45px;
+    border: none;
+    
+    font-size: 1.1rem;
+    color: white;
+    border-radius: 15px;
+    background-color: tomato;
+    transition: 250ms ease;
+    cursor: pointer;
+}
+.user-buttons button:hover{
+    background-color: transparent;
+    color: black;;
+
+    border:1px solid rgb(0, 0, 0)
+}
